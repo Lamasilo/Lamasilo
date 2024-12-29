@@ -1,0 +1,945 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b
+Subject: =?utf-8?Q?toshiba_haps.rst=20=C2=AB=20laptops=20=C2=AB=20admin-guide=20?=
+ =?utf-8?Q?=C2=AB=20Documentation=20-=20kernel/git/torvalds/linux.git=20-?=
+ =?utf-8?Q?=20Linux=20kernel=20source=20tree?=
+Date: Sun, 29 Sep 2024 07:45:36 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----"
+
+
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----
+Content-Type: text/html
+Content-ID: <frame-D269C5CC736CB60A6AF6CA1C985B84F4@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-6ac5616d-a5cc-4cdd-9258-176417cef5df@mhtml.blink" />
+<title>toshiba_haps.rst ¬´ laptops ¬´ admin-guide ¬´ Documentation - kernel/git/torvalds/linux.git - Linux kernel source tree</title>
+<meta name="generator" content="cgit 1.2.3-korg">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" type="text/css" href="https://git.kernel.org/cgit-data/cgit.css">
+
+<link rel="shortcut icon" href="https://git.kernel.org/favicon.ico">
+<link rel="alternate" title="Atom feed" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/atom/Documentation/admin-guide/laptops/toshiba_haps.rst?h=master" type="application/atom+xml">
+<link rel="vcs-git" href="git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" title="kernel/git/torvalds/linux.git Git repository">
+<link rel="vcs-git" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" title="kernel/git/torvalds/linux.git Git repository">
+<link rel="vcs-git" href="https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux.git" title="kernel/git/torvalds/linux.git Git repository">
+</head>
+<body>
+<div id="cgit"><table id="header">
+<tbody><tr>
+<td class="logo" rowspan="2"><a href="https://git.kernel.org/"><img src="https://git.kernel.org/cgit-data/cgit.png" alt="cgit logo"></a></td>
+<td class="main"><a href="https://git.kernel.org/">index</a> : <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/">kernel/git/torvalds/linux.git</a></td><td class="form"><form method="get">
+<select name="h">
+<option value="arm64-uaccess">arm64-uaccess</option>
+<option value="master" selected="selected">master</option>
+</select> <input type="submit" value="switch"></form></td></tr>
+<tr><td class="sub">Linux kernel source tree</td><td class="sub right">Linus Torvalds</td></tr></tbody></table>
+<table class="tabs"><tbody><tr><td>
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/about/">about</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/">summary</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/refs/?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">refs</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/Documentation/admin-guide/laptops/toshiba_haps.rst">log</a><a class="active" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">tree</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">commit</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/diff/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">diff</a><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/stats/Documentation/admin-guide/laptops/toshiba_haps.rst">stats</a></td><td class="form"><form class="right" method="get" action="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/Documentation/admin-guide/laptops/toshiba_haps.rst">
+<select name="qt">
+<option value="grep">log msg</option>
+<option value="author">author</option>
+<option value="committer">committer</option>
+<option value="range">range</option>
+</select>
+<input class="txt" type="search" size="10" name="q" value="">
+<input type="submit" value="search">
+</form>
+</td></tr></tbody></table>
+<div class="path">path: <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">root</a>/<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">Documentation</a>/<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">admin-guide</a>/<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">laptops</a>/<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">toshiba_haps.rst</a></div><div class="content">blob: d28b6c3f2849890c9b58d1a09a7e7dc82c9afaba (<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b">plain</a>)
+<table summary="blob content" class="blob">
+<tbody><tr><td class="linenumbers"><pre><a id="n1" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n1">1</a>
+<a id="n2" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n2">2</a>
+<a id="n3" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n3">3</a>
+<a id="n4" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n4">4</a>
+<a id="n5" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n5">5</a>
+<a id="n6" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n6">6</a>
+<a id="n7" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n7">7</a>
+<a id="n8" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n8">8</a>
+<a id="n9" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n9">9</a>
+<a id="n10" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n10">10</a>
+<a id="n11" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n11">11</a>
+<a id="n12" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n12">12</a>
+<a id="n13" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n13">13</a>
+<a id="n14" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n14">14</a>
+<a id="n15" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n15">15</a>
+<a id="n16" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n16">16</a>
+<a id="n17" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n17">17</a>
+<a id="n18" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n18">18</a>
+<a id="n19" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n19">19</a>
+<a id="n20" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n20">20</a>
+<a id="n21" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n21">21</a>
+<a id="n22" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n22">22</a>
+<a id="n23" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n23">23</a>
+<a id="n24" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n24">24</a>
+<a id="n25" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n25">25</a>
+<a id="n26" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n26">26</a>
+<a id="n27" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n27">27</a>
+<a id="n28" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n28">28</a>
+<a id="n29" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n29">29</a>
+<a id="n30" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n30">30</a>
+<a id="n31" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n31">31</a>
+<a id="n32" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n32">32</a>
+<a id="n33" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n33">33</a>
+<a id="n34" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n34">34</a>
+<a id="n35" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n35">35</a>
+<a id="n36" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n36">36</a>
+<a id="n37" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n37">37</a>
+<a id="n38" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n38">38</a>
+<a id="n39" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n39">39</a>
+<a id="n40" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n40">40</a>
+<a id="n41" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n41">41</a>
+<a id="n42" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n42">42</a>
+<a id="n43" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n43">43</a>
+<a id="n44" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n44">44</a>
+<a id="n45" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n45">45</a>
+<a id="n46" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n46">46</a>
+<a id="n47" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n47">47</a>
+<a id="n48" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n48">48</a>
+<a id="n49" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n49">49</a>
+<a id="n50" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n50">50</a>
+<a id="n51" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n51">51</a>
+<a id="n52" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n52">52</a>
+<a id="n53" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n53">53</a>
+<a id="n54" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n54">54</a>
+<a id="n55" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n55">55</a>
+<a id="n56" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n56">56</a>
+<a id="n57" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n57">57</a>
+<a id="n58" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n58">58</a>
+<a id="n59" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n59">59</a>
+<a id="n60" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n60">60</a>
+<a id="n61" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n61">61</a>
+<a id="n62" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n62">62</a>
+<a id="n63" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n63">63</a>
+<a id="n64" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n64">64</a>
+<a id="n65" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n65">65</a>
+<a id="n66" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n66">66</a>
+<a id="n67" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n67">67</a>
+<a id="n68" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n68">68</a>
+<a id="n69" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n69">69</a>
+<a id="n70" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n70">70</a>
+<a id="n71" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n71">71</a>
+<a id="n72" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n72">72</a>
+<a id="n73" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n73">73</a>
+<a id="n74" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n74">74</a>
+<a id="n75" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n75">75</a>
+<a id="n76" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n76">76</a>
+<a id="n77" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n77">77</a>
+<a id="n78" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n78">78</a>
+<a id="n79" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n79">79</a>
+<a id="n80" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n80">80</a>
+<a id="n81" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n81">81</a>
+<a id="n82" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n82">82</a>
+<a id="n83" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n83">83</a>
+<a id="n84" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n84">84</a>
+<a id="n85" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n85">85</a>
+<a id="n86" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n86">86</a>
+<a id="n87" href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/admin-guide/laptops/toshiba_haps.rst?id=e08d227840bb9366c6321ae1e480b37ba5eec29b#n87">87</a>
+</pre></td>
+<td class="lines"><pre><code><div class="highlight"><pre><span></span><span class="gh">====================================</span>
+<span class="gh">Toshiba HDD Active Protection Sensor</span>
+<span class="gh">====================================</span>
+
+Kernel driver: toshiba_haps
+
+Author: Azael Avalos &lt;coproscefalo@gmail.com&gt;
+
+
+<span class="cp">.. 0. Contents</span>
+
+<span class="cp">   1. Description</span>
+<span class="cp">   2. Interface</span>
+<span class="cp">   3. Accelerometer axes</span>
+<span class="cp">   4. Supported devices</span>
+<span class="cp">   5. Usage</span>
+
+
+<span class="gh">1. Description</span>
+<span class="gh">--------------</span>
+
+This driver provides support for the accelerometer found in various Toshiba
+laptops, being called "Toshiba HDD Protection - Shock Sensor" officially,
+and detects laptops automatically with this device.
+On Windows, Toshiba provided software monitors this device and provides
+automatic HDD protection (head unload) on sudden moves or harsh vibrations,
+however, this driver only provides a notification via a sysfs file to let
+userspace tools or daemons act accordingly, as well as providing a sysfs
+file to set the desired protection level or sensor sensibility.
+
+
+<span class="m">2.</span> Interface
+------------
+
+This device comes with 3 methods:
+
+====	=====================================================================
+_STA    Checks existence of the device, returning Zero if the device does not
+	exists or is not supported.
+PTLV    Sets the desired protection level.
+RSSS    Shuts down the HDD protection interface for a few seconds,
+	then restores normal operation.
+====	=====================================================================
+
+Note:
+  The presence of Solid State Drives (SSD) can make this driver to fail loading,
+  given the fact that such drives have no movable parts, and thus, not requiring
+  any "protection" as well as failing during the evaluation of the _STA method
+  found under this device.
+
+
+<span class="m">3.</span> Accelerometer axes
+---------------------
+
+This device does not report any axes, however, to query the sensor position
+a couple HCI (Hardware Configuration Interface) calls (0x6D and 0xA6) are
+provided to query such information, handled by the kernel module toshiba_acpi
+since kernel version 3.15.
+
+
+<span class="m">4.</span> Supported devices
+--------------------
+
+This driver binds itself to the ACPI device TOS620A, and any Toshiba laptop
+with this device is supported, given the fact that they have the presence of
+conventional HDD and not only SSD, or a combination of both HDD and SSD.
+
+
+<span class="m">5.</span> Usage
+--------
+
+The sysfs files under /sys/devices/LNXSYSTM:00/LNXSYBUS:00/TOS620A:00/ are:
+
+================   ============================================================
+protection_level   The protection_level is readable and writeable, and
+		   provides a way to let userspace query the current protection
+		   level, as well as set the desired protection level, the
+		   available protection levels are<span class="se">::</span>
+
+<span class="s">		     ============   =======   ==========   ========</span>
+<span class="s">		     0 - Disabled   1 - Low   2 - Medium   3 - High</span>
+<span class="s">		     ============   =======   ==========   ========</span>
+
+reset_protection   The reset_protection entry is writeable only, being "1"
+		   the only parameter it accepts, it is used to trigger
+		   a reset of the protection interface.
+================   ============================================================
+</pre></div>
+</code></pre></td></tr></tbody></table>
+</div> <!-- class=content -->
+<div class="footer">generated by <a href="https://git.zx2c4.com/cgit/about/">cgit 1.2.3-korg</a> (<a href="https://git-scm.com/">git 2.43.0</a>) at 2024-09-29 07:44:56 +0000</div>
+</div> <!-- id=cgit -->
+
+
+</body></html>
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-6ac5616d-a5cc-4cdd-9258-176417cef5df@mhtml.blink
+
+@charset "utf-8";
+
+@media only all and (prefers-color-scheme: dark) {
+  pre { line-height: 125%; }
+  td.linenos pre { color: rgb(0, 0, 0); background-color: rgb(240, 240, 240); padding-left: 5px; padding-right: 5px; }
+  span.linenos { color: rgb(0, 0, 0); background-color: rgb(240, 240, 240); padding-left: 5px; padding-right: 5px; }
+  td.linenos pre.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+  span.linenos.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+  .highlight .hll { background-color: rgb(73, 72, 62); }
+  .highlight .c { color: rgb(117, 113, 94); }
+  .highlight .err { color: rgb(150, 0, 80); background-color: rgb(30, 0, 16); }
+  .highlight .k { color: rgb(102, 217, 239); }
+  .highlight .l { color: rgb(174, 129, 255); }
+  .highlight .n { color: rgb(248, 248, 242); }
+  .highlight .o { color: rgb(249, 38, 114); }
+  .highlight .p { color: rgb(248, 248, 242); }
+  .highlight .ch { color: rgb(117, 113, 94); }
+  .highlight .cm { color: rgb(117, 113, 94); }
+  .highlight .cp { color: rgb(117, 113, 94); }
+  .highlight .cpf { color: rgb(117, 113, 94); }
+  .highlight .c1 { color: rgb(117, 113, 94); }
+  .highlight .cs { color: rgb(117, 113, 94); }
+  .highlight .gd { color: rgb(249, 38, 114); }
+  .highlight .ge { font-style: italic; }
+  .highlight .gi { color: rgb(166, 226, 46); }
+  .highlight .go { color: rgb(102, 217, 239); }
+  .highlight .gp { color: rgb(249, 38, 114); font-weight: bold; }
+  .highlight .gs { font-weight: bold; }
+  .highlight .gu { color: rgb(117, 113, 94); }
+  .highlight .kc { color: rgb(102, 217, 239); }
+  .highlight .kd { color: rgb(102, 217, 239); }
+  .highlight .kn { color: rgb(249, 38, 114); }
+  .highlight .kp { color: rgb(102, 217, 239); }
+  .highlight .kr { color: rgb(102, 217, 239); }
+  .highlight .kt { color: rgb(102, 217, 239); }
+  .highlight .ld { color: rgb(230, 219, 116); }
+  .highlight .m { color: rgb(174, 129, 255); }
+  .highlight .s { color: rgb(230, 219, 116); }
+  .highlight .na { color: rgb(166, 226, 46); }
+  .highlight .nb { color: rgb(248, 248, 242); }
+  .highlight .nc { color: rgb(166, 226, 46); }
+  .highlight .no { color: rgb(102, 217, 239); }
+  .highlight .nd { color: rgb(166, 226, 46); }
+  .highlight .ni { color: rgb(248, 248, 242); }
+  .highlight .ne { color: rgb(166, 226, 46); }
+  .highlight .nf { color: rgb(166, 226, 46); }
+  .highlight .nl { color: rgb(248, 248, 242); }
+  .highlight .nn { color: rgb(248, 248, 242); }
+  .highlight .nx { color: rgb(166, 226, 46); }
+  .highlight .py { color: rgb(248, 248, 242); }
+  .highlight .nt { color: rgb(249, 38, 114); }
+  .highlight .nv { color: rgb(248, 248, 242); }
+  .highlight .ow { color: rgb(249, 38, 114); }
+  .highlight .w { color: rgb(248, 248, 242); }
+  .highlight .mb { color: rgb(174, 129, 255); }
+  .highlight .mf { color: rgb(174, 129, 255); }
+  .highlight .mh { color: rgb(174, 129, 255); }
+  .highlight .mi { color: rgb(174, 129, 255); }
+  .highlight .mo { color: rgb(174, 129, 255); }
+  .highlight .sa { color: rgb(230, 219, 116); }
+  .highlight .sb { color: rgb(230, 219, 116); }
+  .highlight .sc { color: rgb(230, 219, 116); }
+  .highlight .dl { color: rgb(230, 219, 116); }
+  .highlight .sd { color: rgb(230, 219, 116); }
+  .highlight .s2 { color: rgb(230, 219, 116); }
+  .highlight .se { color: rgb(174, 129, 255); }
+  .highlight .sh { color: rgb(230, 219, 116); }
+  .highlight .si { color: rgb(230, 219, 116); }
+  .highlight .sx { color: rgb(230, 219, 116); }
+  .highlight .sr { color: rgb(230, 219, 116); }
+  .highlight .s1 { color: rgb(230, 219, 116); }
+  .highlight .ss { color: rgb(230, 219, 116); }
+  .highlight .bp { color: rgb(248, 248, 242); }
+  .highlight .fm { color: rgb(166, 226, 46); }
+  .highlight .vc { color: rgb(248, 248, 242); }
+  .highlight .vg { color: rgb(248, 248, 242); }
+  .highlight .vi { color: rgb(248, 248, 242); }
+  .highlight .vm { color: rgb(248, 248, 242); }
+  .highlight .il { color: rgb(174, 129, 255); }
+}
+
+@media (prefers-color-scheme: light) {
+  pre { line-height: 125%; }
+  td.linenos pre { color: rgb(0, 0, 0); background-color: rgb(240, 240, 240); padding-left: 5px; padding-right: 5px; }
+  span.linenos { color: rgb(0, 0, 0); background-color: rgb(240, 240, 240); padding-left: 5px; padding-right: 5px; }
+  td.linenos pre.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+  span.linenos.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+  .highlight .hll { background-color: rgb(255, 255, 204); }
+  .highlight .c { color: rgb(136, 136, 136); }
+  .highlight .err { color: rgb(166, 23, 23); background-color: rgb(227, 210, 210); }
+  .highlight .k { color: rgb(0, 136, 0); font-weight: bold; }
+  .highlight .ch { color: rgb(136, 136, 136); }
+  .highlight .cm { color: rgb(136, 136, 136); }
+  .highlight .cp { color: rgb(204, 0, 0); font-weight: bold; }
+  .highlight .cpf { color: rgb(136, 136, 136); }
+  .highlight .c1 { color: rgb(136, 136, 136); }
+  .highlight .cs { color: rgb(204, 0, 0); font-weight: bold; background-color: rgb(255, 240, 240); }
+  .highlight .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221); }
+  .highlight .ge { font-style: italic; }
+  .highlight .gr { color: rgb(170, 0, 0); }
+  .highlight .gh { color: rgb(51, 51, 51); }
+  .highlight .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221); }
+  .highlight .go { color: rgb(136, 136, 136); }
+  .highlight .gp { color: rgb(85, 85, 85); }
+  .highlight .gs { font-weight: bold; }
+  .highlight .gu { color: rgb(102, 102, 102); }
+  .highlight .gt { color: rgb(170, 0, 0); }
+  .highlight .kc { color: rgb(0, 136, 0); font-weight: bold; }
+  .highlight .kd { color: rgb(0, 136, 0); font-weight: bold; }
+  .highlight .kn { color: rgb(0, 136, 0); font-weight: bold; }
+  .highlight .kp { color: rgb(0, 136, 0); }
+  .highlight .kr { color: rgb(0, 136, 0); font-weight: bold; }
+  .highlight .kt { color: rgb(136, 136, 136); font-weight: bold; }
+  .highlight .m { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .s { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .na { color: rgb(51, 102, 153); }
+  .highlight .nb { color: rgb(0, 51, 136); }
+  .highlight .nc { color: rgb(187, 0, 102); font-weight: bold; }
+  .highlight .no { color: rgb(0, 51, 102); font-weight: bold; }
+  .highlight .nd { color: rgb(85, 85, 85); }
+  .highlight .ne { color: rgb(187, 0, 102); font-weight: bold; }
+  .highlight .nf { color: rgb(0, 102, 187); font-weight: bold; }
+  .highlight .nl { color: rgb(51, 102, 153); font-style: italic; }
+  .highlight .nn { color: rgb(187, 0, 102); font-weight: bold; }
+  .highlight .py { color: rgb(51, 102, 153); font-weight: bold; }
+  .highlight .nt { color: rgb(187, 0, 102); font-weight: bold; }
+  .highlight .nv { color: rgb(51, 102, 153); }
+  .highlight .ow { color: rgb(0, 136, 0); }
+  .highlight .w { color: rgb(187, 187, 187); }
+  .highlight .mb { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .mf { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .mh { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .mi { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .mo { color: rgb(0, 0, 221); font-weight: bold; }
+  .highlight .sa { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .sb { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .sc { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .dl { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .sd { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .s2 { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .se { color: rgb(0, 68, 221); background-color: rgb(255, 240, 240); }
+  .highlight .sh { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .si { color: rgb(51, 51, 187); background-color: rgb(255, 240, 240); }
+  .highlight .sx { color: rgb(34, 187, 34); background-color: rgb(240, 255, 240); }
+  .highlight .sr { color: rgb(0, 136, 0); background-color: rgb(255, 240, 255); }
+  .highlight .s1 { color: rgb(221, 34, 0); background-color: rgb(255, 240, 240); }
+  .highlight .ss { color: rgb(170, 102, 0); background-color: rgb(255, 240, 240); }
+  .highlight .bp { color: rgb(0, 51, 136); }
+  .highlight .fm { color: rgb(0, 102, 187); font-weight: bold; }
+  .highlight .vc { color: rgb(51, 102, 153); }
+  .highlight .vg { color: rgb(221, 119, 0); }
+  .highlight .vi { color: rgb(51, 51, 187); }
+  .highlight .vm { color: rgb(51, 102, 153); }
+  .highlight .il { color: rgb(0, 0, 221); font-weight: bold; }
+}
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://git.kernel.org/cgit-data/cgit.css
+
+@charset "utf-8";
+
+@import url("source-code-pro/source-code-pro.css");
+
+div#cgit { margin: 0em; font-family: sans-serif; font-size: 10pt; color: rgb(51, 51, 51); background: white; padding: 4px; }
+
+div#cgit a { color: blue; text-decoration: none; }
+
+div#cgit a:hover { text-decoration: underline; }
+
+div#cgit table { border-collapse: collapse; }
+
+div#cgit table#header { width: 100%; margin-bottom: 1em; }
+
+div#cgit table#header td.logo { width: 96px; vertical-align: top; }
+
+div#cgit table#header td.main { font-size: 250%; padding-left: 10px; white-space: nowrap; }
+
+div#cgit table#header td.main a { color: rgb(0, 0, 0); }
+
+div#cgit table#header td.form { text-align: right; vertical-align: bottom; padding-right: 1em; padding-bottom: 2px; white-space: nowrap; }
+
+div#cgit table#header td.form form, div#cgit table#header td.form input, div#cgit table#header td.form select { font-size: 90%; }
+
+div#cgit table#header td.sub { color: rgb(119, 119, 119); border-top: 1px solid rgb(204, 204, 204); padding-left: 10px; }
+
+div#cgit table.tabs { border-bottom: 3px solid rgb(204, 204, 204); border-collapse: collapse; margin-top: 2em; margin-bottom: 0px; width: 100%; }
+
+div#cgit table.tabs td { padding: 0px 1em; vertical-align: bottom; }
+
+div#cgit table.tabs td a { padding: 2px 0.75em; color: rgb(119, 119, 119); font-size: 110%; }
+
+div#cgit table.tabs td a.active { color: rgb(0, 0, 0); background-color: rgb(204, 204, 204); }
+
+div#cgit table.tabs a[href^="http://"]::after, div#cgit table.tabs a[href^="https://"]::after { content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfgAhcJDQY+gm2TAAAAHWlUWHRDb21tZW50AAAAAABDcmVhdGVkIHdpdGggR0lNUGQuZQcAAABbSURBVAhbY2BABs4MU4CwhYHBh2Erww4wrGFQZHjI8B8IgUIscJWyDHcggltQhI4zGDCcRwhChPggHIggP1QoAVmQkSETrGoHsiAEsACtBYN0oDAMbgU6EBcAAL2eHUt4XUU4AAAAAElFTkSuQmCC"); opacity: 0.5; margin: 0px 0px 0px 5px; }
+
+div#cgit table.tabs td.form { text-align: right; }
+
+div#cgit table.tabs td.form form { padding-bottom: 2px; font-size: 90%; white-space: nowrap; }
+
+div#cgit table.tabs td.form input, div#cgit table.tabs td.form select { font-size: 90%; }
+
+div#cgit div.path { margin: 0px; padding: 5px 2em 2px; color: rgb(0, 0, 0); background-color: rgb(238, 238, 238); }
+
+div#cgit div.content { margin: 0px; padding: 2em; border-bottom: 3px solid rgb(204, 204, 204); }
+
+div#cgit table.list { width: 100%; border: none; border-collapse: collapse; }
+
+div#cgit table.list tr { background: white; }
+
+div#cgit table.list tr.logheader { background: rgb(238, 238, 238); }
+
+div#cgit table.list tr:nth-child(2n) { background: rgb(247, 247, 247); }
+
+div#cgit table.list tr:nth-child(2n+1) { background: white; }
+
+div#cgit table.list tr:hover { background: rgb(238, 238, 238); }
+
+div#cgit table.list tr.nohover { background: white; }
+
+div#cgit table.list tr.nohover:hover { background: white; }
+
+div#cgit table.list tr.nohover-highlight:hover:nth-child(2n) { background: rgb(247, 247, 247); }
+
+div#cgit table.list tr.nohover-highlight:hover:nth-child(2n+1) { background: white; }
+
+div#cgit table.list th { font-weight: bold; padding: 0.1em 0.5em 0.05em; vertical-align: baseline; }
+
+div#cgit table.list td { border: none; padding: 0.1em 0.5em; }
+
+div#cgit table.list td.commitgraph { font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; }
+
+div#cgit pre { font-family: "Source Code Pro", "Courier New", monospace; }
+
+div#cgit table.list td.commitgraph .column1 { color: rgb(170, 0, 0); }
+
+div#cgit table.list td.commitgraph .column2 { color: rgb(0, 170, 0); }
+
+div#cgit table.list td.commitgraph .column3 { color: rgb(170, 170, 0); }
+
+div#cgit table.list td.commitgraph .column4 { color: rgb(0, 0, 170); }
+
+div#cgit table.list td.commitgraph .column5 { color: rgb(170, 0, 170); }
+
+div#cgit table.list td.commitgraph .column6 { color: rgb(0, 170, 170); }
+
+div#cgit table.list td.logsubject { font-family: "Source Code Pro", "Courier New", monospace; font-weight: bold; }
+
+div#cgit table.list td.logmsg { font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; padding: 0px 0.5em; }
+
+div#cgit table.list td a { color: black; }
+
+div#cgit table.list td a.ls-dir { font-weight: bold; color: rgb(0, 0, 255); }
+
+div#cgit table.list td a:hover { color: rgb(0, 0, 255); }
+
+div#cgit img { border: none; }
+
+div#cgit input#switch-btn { margin: 2px 0px 0px; }
+
+div#cgit td#sidebar input.txt { width: 100%; margin: 2px 0px 0px; }
+
+div#cgit table#grid { margin: 0px; }
+
+div#cgit td#content { vertical-align: top; padding: 1em 2em 1em 1em; border: none; }
+
+div#cgit div#summary { vertical-align: top; margin-bottom: 1em; }
+
+div#cgit table#downloads { float: right; border-collapse: collapse; border: 1px solid rgb(119, 119, 119); margin-left: 0.5em; margin-bottom: 0.5em; }
+
+div#cgit table#downloads th { background-color: rgb(204, 204, 204); }
+
+div#cgit div#blob { border: 1px solid black; }
+
+div#cgit div.error { color: red; font-weight: bold; margin: 1em 2em; }
+
+div#cgit a.ls-blob, div#cgit a.ls-dir, div#cgit .ls-mod { font-family: "Source Code Pro", "Courier New", monospace; }
+
+div#cgit td.ls-size { text-align: right; font-family: "Source Code Pro", "Courier New", monospace; width: 10em; }
+
+div#cgit td.ls-mode { font-family: "Source Code Pro", "Courier New", monospace; width: 10em; }
+
+div#cgit table.blob { margin-top: 0.5em; border-top: 1px solid black; }
+
+div#cgit table.blob td.hashes, div#cgit table.blob td.lines { margin: 0px; padding: 0px 0px 0px 0.5em; vertical-align: top; color: black; }
+
+div#cgit table.blob td.linenumbers { margin: 0px; padding: 0px 0.5em; vertical-align: top; text-align: right; border-right: 1px solid gray; }
+
+div#cgit table.blob pre { padding: 0px; margin: 0px; }
+
+div#cgit table.blob td.linenumbers a, div#cgit table.ssdiff td.lineno a { color: gray; text-align: right; text-decoration: none; }
+
+div#cgit table.blob td.linenumbers a:hover, div#cgit table.ssdiff td.lineno a:hover { color: black; }
+
+div#cgit table.blame td.hashes, div#cgit table.blame td.lines, div#cgit table.blame td.linenumbers { padding: 0px; }
+
+div#cgit table.blame td.hashes div.alt, div#cgit table.blame td.lines div.alt { padding: 0px 0.5em; }
+
+div#cgit table.blame td.linenumbers div.alt { padding: 0px 0.5em 0px 0px; }
+
+div#cgit table.blame div.alt:nth-child(2n) { background: rgb(238, 238, 238); }
+
+div#cgit table.blame div.alt:nth-child(2n+1) { background: white; }
+
+div#cgit table.blame td.lines > div { position: relative; }
+
+div#cgit table.blame td.lines > div > pre { padding: 0px 0px 0px 0.5em; position: absolute; top: 0px; }
+
+div#cgit table.blame .oid { font-size: 100%; }
+
+div#cgit table.bin-blob { margin-top: 0.5em; border: 1px solid black; }
+
+div#cgit table.bin-blob th { font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; border: 1px solid rgb(119, 119, 119); padding: 0.5em 1em; }
+
+div#cgit table.bin-blob td { font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; border-left: 1px solid rgb(119, 119, 119); padding: 0em 1em; }
+
+div#cgit table.nowrap td { white-space: nowrap; }
+
+div#cgit table.commit-info { border-collapse: collapse; margin-top: 1.5em; }
+
+div#cgit div.cgit-panel { float: right; margin-top: 1.5em; }
+
+div#cgit div.cgit-panel table { border-collapse: collapse; border: 1px solid rgb(170, 170, 170); background-color: rgb(238, 238, 238); }
+
+div#cgit div.cgit-panel th { text-align: center; }
+
+div#cgit div.cgit-panel td { padding: 0.25em 0.5em; }
+
+div#cgit div.cgit-panel td.label { padding-right: 0.5em; }
+
+div#cgit div.cgit-panel td.ctrl { padding-left: 0.5em; }
+
+div#cgit table.commit-info th { text-align: left; font-weight: normal; padding: 0.1em 1em 0.1em 0.1em; vertical-align: top; }
+
+div#cgit table.commit-info td { font-weight: normal; padding: 0.1em 1em 0.1em 0.1em; }
+
+div#cgit div.commit-subject { font-weight: bold; font-size: 125%; margin: 1.5em 0em 0.5em; padding: 0em; }
+
+div#cgit div.commit-msg { white-space: pre; font-family: "Source Code Pro", "Courier New", monospace; }
+
+div#cgit div.notes-header { font-weight: bold; padding-top: 1.5em; }
+
+div#cgit div.notes { white-space: pre; font-family: "Source Code Pro", "Courier New", monospace; border: 1px solid rgb(238, 238, 153); background-color: rgb(255, 255, 221); padding: 0.3em 2em 0.3em 1em; float: left; }
+
+div#cgit div.notes-footer { clear: left; }
+
+div#cgit div.diffstat-header { font-weight: bold; padding-top: 1.5em; }
+
+div#cgit table.diffstat { border-collapse: collapse; border: 1px solid rgb(170, 170, 170); background-color: rgb(238, 238, 238); }
+
+div#cgit table.diffstat th { font-weight: normal; text-align: left; text-decoration: underline; padding: 0.1em 1em 0.1em 0.1em; font-size: 100%; }
+
+div#cgit table.diffstat td { padding: 0.2em 0.2em 0.1em 0.1em; font-size: 100%; border: none; }
+
+div#cgit table.diffstat td.mode { white-space: nowrap; }
+
+div#cgit table.diffstat td span.modechange { padding-left: 1em; color: red; }
+
+div#cgit table.diffstat td.add a { color: green; }
+
+div#cgit table.diffstat td.del a { color: red; }
+
+div#cgit table.diffstat td.upd a { color: blue; }
+
+div#cgit table.diffstat td.graph { width: 500px; vertical-align: middle; }
+
+div#cgit table.diffstat td.graph table { border: none; }
+
+div#cgit table.diffstat td.graph td { padding: 0px; border: 0px; height: 7pt; }
+
+div#cgit table.diffstat td.graph td.add { background-color: rgb(85, 204, 85); }
+
+div#cgit table.diffstat td.graph td.rem { background-color: rgb(204, 85, 85); }
+
+div#cgit div.diffstat-summary { color: rgb(136, 136, 136); padding-top: 0.5em; }
+
+div#cgit table.diff { width: 100%; }
+
+div#cgit table.diff td { font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; }
+
+div#cgit table.diff td div.head { font-weight: bold; margin-top: 1em; color: black; }
+
+div#cgit table.diff td div.hunk { color: rgb(0, 0, 153); }
+
+div#cgit table.diff td div.add { color: green; }
+
+div#cgit table.diff td div.del { color: red; }
+
+div#cgit .oid { font-family: "Source Code Pro", "Courier New", monospace; font-size: 90%; }
+
+div#cgit .left { text-align: left; }
+
+div#cgit .right { text-align: right; }
+
+div#cgit table.list td.reposection { font-style: italic; color: rgb(136, 136, 136); }
+
+div#cgit a.button { font-size: 80%; padding: 0em 0.5em; }
+
+div#cgit a.primary { font-size: 100%; }
+
+div#cgit a.secondary { font-size: 90%; }
+
+div#cgit td.toplevel-repo { }
+
+div#cgit table.list td.sublevel-repo { padding-left: 1.5em; }
+
+div#cgit ul.pager { list-style-type: none; text-align: center; margin: 1em 0em 0em; padding: 0px; }
+
+div#cgit ul.pager li { display: inline-block; margin: 0.25em 0.5em; }
+
+div#cgit ul.pager a { color: rgb(119, 119, 119); }
+
+div#cgit ul.pager .current { font-weight: bold; }
+
+div#cgit span.age-mins { font-weight: bold; color: rgb(0, 136, 0); }
+
+div#cgit span.age-hours { color: rgb(0, 136, 0); }
+
+div#cgit span.age-days { color: rgb(0, 68, 0); }
+
+div#cgit span.age-weeks { color: rgb(68, 68, 68); }
+
+div#cgit span.age-months { color: rgb(136, 136, 136); }
+
+div#cgit span.age-years { color: rgb(187, 187, 187); }
+
+div#cgit span.insertions { color: rgb(0, 136, 0); }
+
+div#cgit span.deletions { color: rgb(136, 0, 0); }
+
+div#cgit div.footer { margin-top: 0.5em; text-align: center; font-size: 80%; color: rgb(204, 204, 204); }
+
+div#cgit div.footer a { color: rgb(204, 204, 204); text-decoration: none; }
+
+div#cgit div.footer a:hover { text-decoration: underline; }
+
+div#cgit a.branch-deco { color: rgb(0, 0, 0); margin: 0px 0.5em; padding: 0px 0.25em; background-color: rgb(136, 255, 136); border: 1px solid rgb(0, 119, 0); }
+
+div#cgit a.tag-deco { color: rgb(0, 0, 0); margin: 0px 0.5em; padding: 0px 0.25em; background-color: rgb(255, 255, 136); border: 1px solid rgb(119, 119, 0); }
+
+div#cgit a.tag-annotated-deco { color: rgb(0, 0, 0); margin: 0px 0.5em; padding: 0px 0.25em; background-color: rgb(255, 204, 136); border: 1px solid rgb(119, 119, 0); }
+
+div#cgit a.remote-deco { color: rgb(0, 0, 0); margin: 0px 0.5em; padding: 0px 0.25em; background-color: rgb(204, 204, 255); border: 1px solid rgb(0, 0, 119); }
+
+div#cgit a.deco { color: rgb(0, 0, 0); margin: 0px 0.5em; padding: 0px 0.25em; background-color: rgb(255, 136, 136); border: 1px solid rgb(119, 0, 0); }
+
+div#cgit div.commit-subject a.branch-deco, div#cgit div.commit-subject a.tag-deco, div#cgit div.commit-subject a.tag-annotated-deco, div#cgit div.commit-subject a.remote-deco, div#cgit div.commit-subject a.deco { margin-left: 1em; font-size: 75%; }
+
+div#cgit table.stats { border: 1px solid black; border-collapse: collapse; }
+
+div#cgit table.stats th { text-align: left; padding: 1px 0.5em; background-color: rgb(238, 238, 238); border: 1px solid black; }
+
+div#cgit table.stats td { text-align: right; padding: 1px 0.5em; border: 1px solid black; }
+
+div#cgit table.stats td.total { font-weight: bold; text-align: left; }
+
+div#cgit table.stats td.sum { color: rgb(204, 0, 0); font-weight: bold; }
+
+div#cgit table.stats td.left { text-align: left; }
+
+div#cgit table.vgraph { border-collapse: separate; border: 1px solid black; height: 200px; }
+
+div#cgit table.vgraph th { background-color: rgb(238, 238, 238); font-weight: bold; border: 1px solid white; padding: 1px 0.5em; }
+
+div#cgit table.vgraph td { vertical-align: bottom; padding: 0px 10px; }
+
+div#cgit table.vgraph div.bar { background-color: rgb(238, 238, 238); }
+
+div#cgit table.hgraph { border: 1px solid black; width: 800px; }
+
+div#cgit table.hgraph th { background-color: rgb(238, 238, 238); font-weight: bold; border: 1px solid black; padding: 1px 0.5em; }
+
+div#cgit table.hgraph td { vertical-align: middle; padding: 2px; }
+
+div#cgit table.hgraph div.bar { background-color: rgb(238, 238, 238); height: 1em; }
+
+div#cgit table.ssdiff { width: 100%; }
+
+div#cgit table.ssdiff td { font-size: 75%; font-family: "Source Code Pro", "Courier New", monospace; white-space: pre; padding: 1px 4px; border-left: 1px solid rgb(170, 170, 170); border-right: 1px solid rgb(170, 170, 170); }
+
+div#cgit table.ssdiff td.add { color: black; background: rgb(204, 255, 204); min-width: 50%; }
+
+div#cgit table.ssdiff td.add_dark { color: black; background: rgb(170, 204, 170); min-width: 50%; }
+
+div#cgit table.ssdiff span.add { background: rgb(204, 255, 204); font-weight: bold; }
+
+div#cgit table.ssdiff td.del { color: black; background: rgb(255, 204, 204); min-width: 50%; }
+
+div#cgit table.ssdiff td.del_dark { color: black; background: rgb(204, 170, 170); min-width: 50%; }
+
+div#cgit table.ssdiff span.del { background: rgb(255, 204, 204); font-weight: bold; }
+
+div#cgit table.ssdiff td.changed { color: black; background: rgb(255, 255, 204); min-width: 50%; }
+
+div#cgit table.ssdiff td.changed_dark { color: black; background: rgb(204, 204, 170); min-width: 50%; }
+
+div#cgit table.ssdiff td.lineno { color: black; background: rgb(238, 238, 238); text-align: right; width: 3em; min-width: 3em; }
+
+div#cgit table.ssdiff td.hunk { color: black; background: rgb(204, 204, 255); border-top: 1px solid rgb(170, 170, 170); border-bottom: 1px solid rgb(170, 170, 170); }
+
+div#cgit table.ssdiff td.head { border-top: 1px solid rgb(170, 170, 170); border-bottom: 1px solid rgb(170, 170, 170); }
+
+div#cgit table.ssdiff td.head div.head { font-weight: bold; color: black; }
+
+div#cgit table.ssdiff td.foot { border-top: 1px solid rgb(170, 170, 170); border-left: none; border-right: none; border-bottom: none; }
+
+div#cgit table.ssdiff td.space { border: none; }
+
+div#cgit table.ssdiff td.space div { min-height: 3em; }
+
+div#cgit span.libravatar img.onhover { display: none; border: 1px solid gray; padding: 0px; border-radius: 4px; width: 128px; height: 128px; }
+
+div#cgit span.libravatar img.inline { border-radius: 3px; width: 13px; height: 13px; margin-right: 0.2em; opacity: 0.6; }
+
+div#cgit span.libravatar:hover > img.onhover { display: block; position: absolute; margin-left: 1.5em; background-color: rgb(238, 238, 238); box-shadow: rgba(100, 100, 100, 0.75) 2px 2px 7px; }
+
+:root { color-scheme: light dark; }
+
+@media only all and (prefers-color-scheme: dark) {
+  html, div#cgit { color: rgb(238, 238, 238); background: rgb(23, 23, 23); }
+  div#cgit a { color: rgb(51, 170, 255); }
+  div#cgit .diffstat-header a { color: rgb(34, 136, 221); }
+  div#cgit table#header td.main a { color: rgb(238, 238, 238); }
+  div#cgit table#header td.sub { color: rgb(153, 153, 153); }
+  div#cgit table.tabs { border-bottom-color: rgb(68, 68, 68); }
+  div#cgit table.tabs td a { color: rgb(136, 136, 136); }
+  div#cgit table.tabs td a.active { color: rgb(255, 255, 255); background-color: rgb(68, 68, 68); }
+  div#cgit div.path { color: rgb(238, 238, 238); background-color: rgb(51, 51, 51); }
+  div#cgit div.content { border-bottom-color: rgb(187, 187, 187); }
+  div#cgit table.list tr { background: rgb(23, 23, 23); }
+  div#cgit table.list tr.logheader { background: rgb(23, 23, 23); }
+  div#cgit table.list tr:nth-child(2n) { background: rgb(23, 23, 23); }
+  div#cgit table.list tr:nth-child(2n+1) { background: rgb(31, 31, 31); }
+  div#cgit table.list tr:hover { background: rgb(51, 51, 51); }
+  div#cgit table.list tr.nohover { background: rgb(23, 23, 23); }
+  div#cgit table.list tr.nohover:hover { background: rgb(23, 23, 23); }
+  div#cgit table.list tr.nohover-highlight:hover:nth-child(2n) { background: rgb(23, 23, 23); }
+  div#cgit table.list tr.nohover-highlight:hover:nth-child(2n+1) { background: rgb(31, 31, 31); }
+  div#cgit table.list td.commitgraph .column1 { color: rgb(255, 85, 85); }
+  div#cgit table.list td.commitgraph .column2 { color: rgb(85, 255, 85); }
+  div#cgit table.list td.commitgraph .column3 { color: rgb(255, 255, 85); }
+  div#cgit table.list td.commitgraph .column4 { color: rgb(85, 85, 255); }
+  div#cgit table.list td.commitgraph .column5 { color: rgb(255, 85, 255); }
+  div#cgit table.list td.commitgraph .column6 { color: rgb(85, 255, 255); }
+  div#cgit table.list td a { color: rgb(238, 238, 238); }
+  div#cgit table.list td a.ls-dir { color: rgb(34, 136, 221); }
+  div#cgit table.list td a:hover { color: rgb(51, 170, 255); }
+  div#cgit table#downloads { border-color: rgb(136, 136, 136); }
+  div#cgit table#downloads th { background-color: rgb(51, 51, 51); }
+  div#cgit div#blob { border-color: rgb(238, 238, 238); }
+  div#cgit table.blob { border-top-color: rgb(238, 238, 238); }
+  div#cgit table.blob td.hashes, div#cgit table.blob td.lines { color: rgb(238, 238, 238); }
+  div#cgit table.blob td.linenumbers { border-right-color: gray; }
+  div#cgit table.blob td.linenumbers a, div#cgit table.ssdiff td.lineno a { color: gray; }
+  div#cgit table.blob td.linenumbers a:hover, div#cgit table.ssdiff td.lineno a:hover { color: rgb(238, 238, 238); }
+  div#cgit table.blame div.alt:nth-child(2n) { background: rgb(23, 23, 23); }
+  div#cgit table.blame div.alt:nth-child(2n+1) { background: rgb(31, 31, 31); }
+  div#cgit table.bin-blob { border-color: rgb(238, 238, 238); }
+  div#cgit table.bin-blob th { border-color: rgb(136, 136, 136); }
+  div#cgit table.bin-blob td { border-left-color: rgb(136, 136, 136); }
+  div#cgit div.cgit-panel table { border-color: rgb(85, 85, 85); background-color: rgb(40, 40, 40); }
+  div#cgit div.notes { border-color: rgb(102, 102, 17); background-color: rgb(34, 34, 0); }
+  div#cgit table.diffstat { border-color: rgb(85, 85, 85); background-color: rgb(40, 40, 40); }
+  div#cgit table.diffstat td span.modechange { color: rgb(204, 102, 102); }
+  div#cgit table.diffstat td.add a { color: rgb(102, 204, 102); }
+  div#cgit table.diffstat td.del a { color: rgb(204, 102, 102); }
+  div#cgit table.diffstat td.upd a { color: rgb(51, 170, 255); }
+  div#cgit table.diffstat td.graph td.add { background-color: rgb(51, 170, 51); }
+  div#cgit table.diffstat td.graph td.rem { background-color: rgb(170, 51, 51); }
+  div#cgit div.diffstat-summary { color: rgb(119, 119, 119); }
+  div#cgit table.diff td div.head { color: rgb(238, 238, 238); }
+  div#cgit table.diff td div.hunk { color: rgb(34, 136, 221); }
+  div#cgit table.diff td div.add { color: rgb(102, 204, 102); }
+  div#cgit table.diff td div.del { color: rgb(204, 102, 102); }
+  div#cgit table.list td.reposection { color: rgb(119, 119, 119); }
+  div#cgit ul.pager a { color: rgb(136, 136, 136); }
+  div#cgit span.age-mins { color: rgb(119, 255, 119); }
+  div#cgit span.age-hours { color: rgb(119, 255, 119); }
+  div#cgit span.age-days { color: rgb(153, 221, 153); }
+  div#cgit span.age-weeks { color: rgb(187, 187, 187); }
+  div#cgit span.age-months { color: rgb(136, 136, 136); }
+  div#cgit span.age-years { color: rgb(102, 102, 102); }
+  div#cgit span.insertions { color: rgb(119, 255, 119); }
+  div#cgit span.deletions { color: rgb(238, 51, 51); }
+  div#cgit div.footer { color: rgb(85, 85, 85); }
+  div#cgit div.footer a { color: rgb(85, 85, 85); }
+  div#cgit a.branch-deco { color: rgb(255, 255, 255); background-color: rgb(51, 102, 17); border-color: rgb(51, 187, 34); }
+  div#cgit a.tag-deco { color: rgb(255, 255, 255); background-color: rgb(102, 85, 0); border-color: rgb(187, 170, 51); }
+  div#cgit a.tag-annotated-deco { color: rgb(255, 255, 255); background-color: rgb(136, 68, 0); border-color: rgb(187, 153, 102); }
+  div#cgit a.remote-deco { color: rgb(255, 255, 255); background-color: rgb(51, 68, 136); border-color: rgb(102, 119, 204); }
+  div#cgit a.deco { color: rgb(255, 255, 255); background-color: rgb(153, 34, 34); border-color: rgb(221, 85, 85); }
+  div#cgit a.branch-deco:hover, div#cgit table.list td a.branch-deco:hover, div#cgit a.tag-deco:hover, div#cgit table.list td a.tag-deco:hover, div#cgit a.tag-annotated-deco:hover, div#cgit table.list td a.tag-annotated-deco:hover, div#cgit a.remote-deco:hover, div#cgit table.list td a.remote-deco:hover, div#cgit a.deco:hover, div#cgit table.list td a.deco:hover { color: rgb(255, 255, 255); }
+  div#cgit table.stats { border-color: rgb(85, 85, 85); }
+  div#cgit table.stats th { background-color: rgb(51, 51, 51); border-color: rgb(85, 85, 85); }
+  div#cgit table.stats td { border-color: rgb(85, 85, 85); }
+  div#cgit table.stats td.sum { color: rgb(92, 126, 155); }
+  div#cgit table.vgraph { border-color: rgb(238, 238, 238); }
+  div#cgit table.vgraph th { background-color: rgb(31, 31, 31); border-color: black; }
+  div#cgit table.vgraph div.bar { background-color: rgb(31, 31, 31); }
+  div#cgit table.hgraph { border-color: rgb(238, 238, 238); }
+  div#cgit table.hgraph th { background-color: rgb(31, 31, 31); border-color: rgb(238, 238, 238); }
+  div#cgit table.hgraph div.bar { background-color: rgb(31, 31, 31); }
+  div#cgit table.ssdiff td { border-left-color: rgb(85, 85, 85); border-right-color: rgb(85, 85, 85); }
+  div#cgit table.ssdiff td.add { color: rgb(238, 238, 238); background: rgb(51, 85, 51); }
+  div#cgit table.ssdiff td.add_dark { color: rgb(238, 238, 238); background: rgb(0, 51, 0); }
+  div#cgit table.ssdiff span.add { background: rgb(0, 51, 0); }
+  div#cgit table.ssdiff td.del { color: rgb(238, 238, 238); background: rgb(85, 51, 51); }
+  div#cgit table.ssdiff td.del_dark { color: rgb(238, 238, 238); background: rgb(68, 17, 17); }
+  div#cgit table.ssdiff span.del { background: rgb(51, 0, 0); }
+  div#cgit table.ssdiff td.changed { color: rgb(238, 238, 238); background: rgb(85, 85, 51); }
+  div#cgit table.ssdiff td.changed_dark { color: rgb(238, 238, 238); background: rgb(51, 51, 0); }
+  div#cgit table.ssdiff td.lineno { color: rgb(238, 238, 238); background: rgb(31, 31, 31); }
+  div#cgit table.ssdiff td.hunk { color: rgb(238, 238, 238); background: rgb(13, 61, 100); border-top-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); }
+  div#cgit table.ssdiff td.head { border-top-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); }
+  div#cgit table.ssdiff td.head div.head { color: rgb(238, 238, 238); }
+  div#cgit table.ssdiff td.foot { border-top-color: rgb(85, 85, 85); }
+}
+
+body.hl { background-color: rgb(224, 234, 238); }
+
+pre.hl { color: rgb(0, 0, 0); background-color: rgb(224, 234, 238); font-size: 10pt; font-family: "Courier New", monospace; }
+
+.hl.num { color: rgb(176, 126, 0); }
+
+.hl.esc { color: rgb(255, 0, 255); }
+
+.hl.str { color: rgb(191, 3, 3); }
+
+.hl.pps { color: rgb(129, 129, 0); }
+
+.hl.slc { color: rgb(131, 129, 131); font-style: italic; }
+
+.hl.com { color: rgb(131, 129, 131); font-style: italic; }
+
+.hl.ppc { color: rgb(0, 130, 0); }
+
+.hl.opt { color: rgb(0, 0, 0); }
+
+.hl.ipl { color: rgb(0, 87, 174); }
+
+.hl.lin { color: rgb(85, 85, 85); }
+
+.hl.kwa { color: rgb(0, 0, 0); font-weight: bold; }
+
+.hl.kwb { color: rgb(0, 87, 174); }
+
+.hl.kwc { color: rgb(0, 0, 0); font-weight: bold; }
+
+.hl.kwd { color: rgb(1, 1, 129); }
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://git.kernel.org/cgit-data/source-code-pro/source-code-pro.css
+
+@charset "utf-8";
+
+@font-face { font-family: "Source Code Pro"; font-weight: 200; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-ExtraLight.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-ExtraLight.otf.woff") format("woff"), url("OTF/SourceCodePro-ExtraLight.otf") format("opentype"), url("TTF/SourceCodePro-ExtraLight.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 200; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-ExtraLightIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-ExtraLightIt.otf.woff") format("woff"), url("OTF/SourceCodePro-ExtraLightIt.otf") format("opentype"), url("TTF/SourceCodePro-ExtraLightIt.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 300; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Light.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Light.otf.woff") format("woff"), url("OTF/SourceCodePro-Light.otf") format("opentype"), url("TTF/SourceCodePro-Light.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 300; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-LightIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-LightIt.otf.woff") format("woff"), url("OTF/SourceCodePro-LightIt.otf") format("opentype"), url("TTF/SourceCodePro-LightIt.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 400; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Regular.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Regular.otf.woff") format("woff"), url("OTF/SourceCodePro-Regular.otf") format("opentype"), url("TTF/SourceCodePro-Regular.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 400; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-It.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-It.otf.woff") format("woff"), url("OTF/SourceCodePro-It.otf") format("opentype"), url("TTF/SourceCodePro-It.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 500; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Medium.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Medium.otf.woff") format("woff"), url("OTF/SourceCodePro-Medium.otf") format("opentype"), url("TTF/SourceCodePro-Medium.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 500; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-MediumIt.otf.woff") format("woff"), url("OTF/SourceCodePro-MediumIt.otf") format("opentype"), url("TTF/SourceCodePro-MediumIt.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 600; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Semibold.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Semibold.otf.woff") format("woff"), url("OTF/SourceCodePro-Semibold.otf") format("opentype"), url("TTF/SourceCodePro-Semibold.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 600; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-SemiboldIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-SemiboldIt.otf.woff") format("woff"), url("OTF/SourceCodePro-SemiboldIt.otf") format("opentype"), url("TTF/SourceCodePro-SemiboldIt.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 700; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Bold.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Bold.otf.woff") format("woff"), url("OTF/SourceCodePro-Bold.otf") format("opentype"), url("TTF/SourceCodePro-Bold.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 700; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-BoldIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-BoldIt.otf.woff") format("woff"), url("OTF/SourceCodePro-BoldIt.otf") format("opentype"), url("TTF/SourceCodePro-BoldIt.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 900; font-style: normal; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-Black.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-Black.otf.woff") format("woff"), url("OTF/SourceCodePro-Black.otf") format("opentype"), url("TTF/SourceCodePro-Black.ttf") format("truetype"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 900; font-style: italic; font-stretch: normal; src: url("WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2") format("woff2"), url("WOFF/OTF/SourceCodePro-BlackIt.otf.woff") format("woff"), url("OTF/SourceCodePro-BlackIt.otf") format("opentype"), url("TTF/SourceCodePro-BlackIt.ttf") format("truetype"); }
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3----
+Content-Type: image/png
+Content-Transfer-Encoding: binary
+Content-Location: https://git.kernel.org/cgit-data/cgit.png
+
+âPNG
+
+   IHDR   `   F   ≥a!   gAMA  ±è¸a   sRGB ÆŒÈ   	pHYs  ú  ú&Õ:4   PLTEGpL     ¥¥¥  ¯ÌÏ  ˘Ô∏∏∏µµµ¯ÎÍﬁﬁﬁ∞∞∞¯ÍÈÙÙÙﬂﬂﬂÂ‰‰ÍËËÎËË¿¿¿£££ﬁﬁﬁÔÔÔﬁﬁﬁ˜òòòÏËË···ÁÊÊ‚‚‚„„„/˘ÍÈ»»»//√√√¯ŒÀ¯”–‡‡‡ÓÓÓ⁄⁄⁄ÔÔÔ¯ÍÈ˙˙˙˘˘˘˛˛¸P2ÙÙÙæΩºˇˇˇÏÏÏ‰‰‰››‹ƒƒƒ
+,,,444$$$ÃÃÃ‘‘‘<<<ˆ≥ÆDDDtttÉÉÑ\\\Ï¥Îƒ¨¨¨JJLÎºÿúµ¥≥ˆ’ˆ⁄§§§ÌÃÒ‘*ddd˙Ÿ÷œîVVT–§llkˆ∞™ŒéÒ”úúúÙ’CîîîØx	øµ§ÛèÖÚ}pÚwiÚyk¸ËÁ…éƒã	¿Ö˜ª∂ı°ö˛˜ˆÛÑy¸Ê‰|||˛ÙÛπÉ	ßr&PPPÚqa˝ÒÒ√ö˜∂∞ı¶ü˘Õ…ÛåÇ˚·ﬂ˛˙˘ÚzmX>Ò^GÛà}Úug∏£x˝ÓÌﬂ•	ÒfS…£öd∂~
+—õ	¨Ñ	3$Í∆ N6ççå¯¡Ω˜∏≥ˆ´•˚ﬁ‹ÒiWıúîˇ˛˛ˆ⁄Jäl$∏≠ñÚ⁄,Â¨	ùwL⁄£	§m∑õ\ˆ÷0û~DÚ∂‚º∂å∞ç>|[
+¢n$ÛÕO:	Ÿ≥·¥
+à[§w
+◊¨	S6˚‹⁄ÙìäÒaKÚÄsÚÅu^VD¥É ¶õá∫É0˝ÌÏ¡úN◊ñïk1˝ÏÎﬂ¨B*"£q?ùj9& íÇ\lE^N4jKéj¬ìΩùˆ∆,Ûƒ“®QÎ≥A2∂ä à∫Ω¢   _tRNS k1˝Ãß	«∫ãôıÔv–|÷ﬂé±…‘'ÕO#˘©™“ñ§F6ÎÆ≤.=·Vü>ätì∑¿µõ®û°Sa°⁄"êZ¬kn«ÅÏwb˝˚tÖg÷áÔ◊dÃÃíÉO  iIDATX√µòw|E«ÅÑ(1Ñ¶ÇH§7T¨®Ç`Ôu∂‹∂ª›€›Àï‰¬]<SH%	-&Aêﬁ•E©
+*`{ÔΩ◊ô-◊[‰xˇ‹Ì~Ó~ﬂô˜ﬁºôyIIˇ”íSíŒòuòÿ733ß{fÊ§GFuHº¸¿)cÅœÆÈîhƒƒlhÁ›rVÂ;fÅPÀº4qÄæA⁄œõ }S¢Ù{û∑Xx¯yKbÙœÌl≈f# ŸâÒ“9!ÓKm≈V¶vMDÇ¶Îõƒ≈´Ä †G ùB&`‚ÕOQJ∂&ü˛æ&4C)£IˇzÁi∫Ç®÷Ø√Ä¡âÇ…Î"–; Eâº?¡h6Sâ IA–#,,.(ã˛8, ±‹^jåÍ"sÿk<N%hS8/ æŸ…πÀçä"_^„tìí€(®íXô,WÙnñ&Zﬁ≠ª®˚πq
+]w’ê´ÆÿÕ–,Å…h»îì¿hOÉ—6=‡ù„”Ôyˆ¸5ÀÆΩ Äí´≈NVòû"á™‹¡bR˚ ©ÈÎpØCòx÷+áô$pò ´Õé—b{ ©Èqdıgá."k|©+ßxApcv¥¨Q–@Í£ı∏j+B]/Ô&°î˝a◊Ævÿh;RµÙ‚¯©è=„%Ù©E	u~>ZvÚùw ˛≠´B™vå1«HMaâaÆNXDÄÄ*¬f˙•∂1o˙±≤ÌKßÛö	0©˘¢X˙›“g·s ·y/!5P 0_5Ωîó7}z˛ŒùE3ÚÀ^Á_öûKø◊,®:{â·ÛEÀ’Y,L˜'$√ò:74mSÙg™~πç?ˇ˛Îƒõq∫ıZ≠®Œ^`0V‚°8É∂--%õ  FÂÀ’’èC+¨¸„∑o„\¶È„¯ì`X´~ˇ»èê<ºV€Ë:úóó'∞ˇ!(ˇxÂ[;OæO9ΩÏ¬9ö>æû“>LÔÊ˝MF€ë≠⁄™´ã†~a˛Ô«]%;4¿†.qÈ„ı»G_ÎÑY>B∆é÷&◊¶ºWQ™ã
+ﬂ(k)qπ⁄Ù D>∫L~ÿßè„πÜEKΩÑ^:!√¥Î◊máë~e˝åc«õ∂π\_÷¬]”lAÄúH˚˛‰õg„Ä'fá#dÄ∂üNï°ÒUVÊómompπ\'>FÎŸÊ@U{@Ñ¸	‘G |˝√™}{◊+œ´{ı‘ &€èßﬁ^Zˆ÷ÊÕ€[kõJJJæ8H:·J6ñ€õ!!+<‡¡z<ÄØﬂ#Òû˙‚˝˚4 ÂqøÚ˝€K7/mh®Ä÷¯ŸAN‚»b8vk≥Ωòi·˜ú!Ñ¨Aπ¥J}±fàr≤Àºá¨˚nK„KÆííä∆ññ£u$)…\UlCaËpˇº0 |#ÏU_Ãº˝l @ ≤Ó≈-µ[∑÷∂˘dIí2‹6%+⁄·DSƒzî2bf¿¬πÜïjl^èºÎ0T*$(˙Èãº˛ 8|n†Fx|ßØ€¬N°K Axm˛¯˛Í~Äçf8H ›unÙ¡±4ÜÃªÂ¿ìŸ≠·	r#Ê_¢Ë~»D#dR7NfL5íÚÓIπﬁGXÒ§a’|Ô”2U?Èû5Pêê4}	ûZ4}∏˝˚ìW$≈"†Z¥‡]]ˇbEøCP6h™ì8Ÿ'è¶‡w\ç∞⁄RÜÁÜ©¶œ]¨∞ë(O‹ÍhYí|ﬁ¡Ç£ ˙$« ,˜Ì∫˛tΩ,÷5	òöXê’¯M!#BIJπ˙iEuÌûπÀ’]sÊ™~ót™Ê|„≈BÃﬂG‡ˆH}Ç´üX∫~“m Yî¡¢ÎHã¥˝w<ﬂü0sÑ¶ﬂ]_M5QûébÊ˘Èk-ßﬁÍm£äı∆ÄàTg⁄N˘çåI»ù†Èw≠¸≈\E≤ä.ícB5¯ùeeòV¨3  ˙éA»Ω1%†¡BT99VÒ¡∞z¨,q–HNb—A““7bGË =Hˇz]ø≥⁄?0ñzH}È“¥ühç!”p[∞Xåﬁ0DlèúuÂ=πw˜∂¸¥Î=oó_Ç"Ã À
+®µ ÍïuR‰˜∏ª∆˘∫dŸpÙ‡ê¸áíE¥ÃI¥9…¨ÖG«◊Å5ÇÇÛ6∫i,™¨$”V%ƒ8è™ﬁó`ˆ+—åSπ©õç—kR†ı&xïÁ%ãMêÇ»ÎNá˛Ä4e6,#‡•J¥Zx›IC„ÛêïFãœHJ∞F£Edwâ›Éö
+D!xQ¬¡ÚF‘(–˙%#c∆¿µC∆ËG©™ÑUÌbhQ»ä	»h∫•D`ŒGÒQ≥ZW¨Z…ã•ﬂ?eµ…†AG8Ueê6*`
+Ù1?Ä ÄÀc6z)ËMG†¿©¬ñËG›Ü¬ûv ‘ùì“óZÙï0*M…JjÄQKØﬁB≠Z$˜A	g|–*côò ≥∑o≠¢NSªÎ@d£ÕÄVC@˘ ˇü≥©ﬂÕø<˛    IENDÆB`Ç
+------MultipartBoundary--9myDbMDVPMlT7ajOpbtcQeaknw8STVHg17uS3jkkH3------
